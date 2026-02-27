@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Chuks Kitchen</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="A place for different varieties of food"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-container">
+        <div class="logo">
+          <img
+            src="images/logo.svg"
+            alt="Chuks Kitchen Logo"
+            width="100"
+            height="auto"
+          />
+        </div>
+        <div class="menu-toggle" id="menu-toggle">☰</div>
+        <ul id="navbar">
+          <li><a class="navbar-link" href="home.html">Home</a></li>
+          <li><a class="navbar-link" href="explore.html">Explore</a></li>
+          <li><a class="navbar-link" href="orders.html">My Orders</a></li>
+          <li><a class="navbar-link" href="account.html">Account</a></li>
+          <li class="btn">
+            <a class="navbar-link" href="login.html">Login</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="top-section">
+        <div class="explore-hero">
+          <h1>Chuks Kitchen</h1>
+          <p>Chuks Kitchen Nigerian Home Cooking 4.8 (1.2k)</p>
+        </div>
+      </section>
+
+      <!-- Menu Categories -->
+      <section class="menu-categories">
+        <h2>Menu Categories</h2>
+        <ul>
+          <li class="active"><a href="#explore">Popular</a></li>
+          <li><a href="#jollof-rice">Jollof Rice & Entrees</a></li>
+          <li><a href="#swallow-n-soups">Swallow & Soups</a></li>
+          <li><a href="#grills-n-sides">Grills & Sides</a></li>
+          <li><a href="#beverages">Beverages</a></li>
+          <li><a href="#desserts">Desserts</a></li>
+        </ul>
+      </section>
+
+      <!-- Popular Section -->
+      <section id="explore" class="explore-section">
+        <h2>Popular Category</h2>
+
+        <div class="explore-div">
+          <img
+            class="explore-img"
+            src="images/Fish-dish.png"
+            alt="Tilapia Pepper Soup"
+            height="200"
+          />
+          <div class="details">
+            <h2 class="explore-caption">Spicy Tilapia Pepper Soup</h2>
+            <p class="description">
+              A comforting and spicy soup, with tender tilapia fish, a true
+              Nigerian delicacy.
+            </p>
+            <div class="price-cart">
+              <p>₦3,500</p>
+              <button>+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="explore-div">
+          <img
+            class="explore-img"
+            src="images/Jollof.png"
+            alt="Jollof Rice"
+            height="200"
+          />
+          <div class="details">
+            <h2 class="explore-caption">Jollof Rice and Fried Chicken</h2>
+            <p class="description">
+              Our signature jollof, cooked to perfection, served with succulent
+              fried chicken.
+            </p>
+            <div class="price-cart">
+              <p>₦3,500</p>
+              <button>+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="explore-div">
+          <img
+            class="explore-img"
+            src="images/Egusi-soup.png"
+            alt="Egusi Soup and Pounded Yam"
+            height="200"
+          />
+          <div class="details">
+            <h2 class="explore-caption">Egusi Soup and Pounded Yam</h2>
+            <p class="description">
+              Rich and savoury egusi soup with assorted meats, paired with
+              freshly pounded yam.
+            </p>
+            <div class="price-cart">
+              <p>₦3,500</p>
+              <button>+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="explore-div hidden">
+          <img
+            class="explore-img"
+            src="images/Assorted-meats.png"
+            alt="Assorted Meats"
+            height="200"
+          />
+          <div class="details">
+            <h2 class="explore-caption">Assorted Meats</h2>
+            <p class="description">
+              Well seasoned and flavoured variety of meats.
+            </p>
+            <div class="price-cart">
+              <p>₦3,500</p>
+              <button>+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="explore-div hidden">
+          <img
+            class="explore-img"
+            src="images/Chicken-jollof.png"
+            alt="Jollof Rice and Fried Chicken"
+            height="200"
+          />
+          <div class="details">
+            <h2 class="explore-caption">Jollof Rice and Fried Chicken</h2>
+            <p class="description">
+              Our signature jollof, cooked to perfection, served with succulent
+              fried chicken.
+            </p>
+            <div class="price-cart">
+              <p>₦3,500</p>
+              <button>+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="explore-div hidden">
+          <img
+            class="explore-img"
+            src="images/Egusi.png"
+            alt="Egusi Soup"
+            height="200"
+          />
+          <div class="details">
+            <h2 class="explore-caption">Egusi Soup and Pounded Yam</h2>
+            <p class="description">
+              Rich and savoury egusi soup with assorted meats, paired with
+              freshly pounded yam.
+            </p>
+            <div class="price-cart">
+              <p>₦3,500</p>
+              <button>+</button>
+            </div>
+          </div>
+        </div>
+
+        <button class="view-all-btn">View All Categories</button>
+      </section>
+
+      <!-- Jollof Rice Section -->
+      <section id="jollof-rice" class="explore-section">
+        <h2>Jollof Rice and Entrees</h2>
+
+        <div class="explore-div">
+          <img
+            class="explore-img"
+            src="images/Fish-jollof.png"
+            alt="Fish Jollof"
+            height="200"
+          />
+          <div class="details">
+            <h2 class="explore-caption">Spicy Tilapia Pepper Soup</h2>
+            <p class="description">
+              A comforting and spicy soup, with tender tilapia fish, a true
+              Nigerian delicacy.
+            </p>
+            <div class="price-cart">
+              <p>₦3,500</p>
+              <button>+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="explore-div">
+          <img
+            class="explore-img"
+            src="images/Chicken-jollof.png"
+            alt="Jollof Rice and Fried Chicken"
+            height="200"
+          />
+          <div class="details">
+            <h2 class="explore-caption">Jollof Rice and Fried Chicken</h2>
+            <p class="description">
+              Our signature jollof, cooked to perfection, served with succulent
+              fried chicken.
+            </p>
+            <div class="price-cart">
+              <p>₦3,500</p>
+              <button>+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="explore-div">
+          <img
+            class="explore-img"
+            src="images/Jollof.png"
+            alt="Jollof Rice"
+            height="200"
+          />
+          <div class="details">
+            <h2 class="explore-caption">Egusi Soup and Pounded Yam</h2>
+            <p class="description">
+              Rich and savoury egusi soup with assorted meats, paired with
+              freshly pounded yam.
+            </p>
+            <div class="price-cart">
+              <p>₦3,500</p>
+              <button>+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="explore-div hidden">
+          <img
+            class="explore-img"
+            src="images/Fish-jollof.png"
+            alt="Fish Jollof"
+            height="200"
+          />
+          <div class="details">
+            <h2 class="explore-caption">Assorted Meats</h2>
+            <p class="description">
+              Well seasoned and flavoured variety of meats.
+            </p>
+            <div class="price-cart">
+              <p>₦3,500</p>
+              <button>+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="explore-div hidden">
+          <img
+            class="explore-img"
+            src="images/Plantain-jollof.png"
+            alt="Plantain Jollof"
+            height="200"
+          />
+          <div class="details">
+            <h2 class="explore-caption">Jollof Rice and Fried Chicken</h2>
+            <p class="description">
+              Our signature jollof, cooked to perfection, served with succulent
+              fried chicken.
+            </p>
+            <div class="price-cart">
+              <p>₦3,500</p>
+              <button>+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="explore-div hidden">
+          <img
+            class="explore-img"
+            src="images/Chicken-jollof.png"
+            alt="Jollof Rice and Fried Chicken"
+            height="200"
+          />
+          <div class="details">
+            <h2 class="explore-caption">Egusi Soup and Pounded Yam</h2>
+            <p class="description">
+              Rich and savoury egusi soup with assorted meats, paired with
+              freshly pounded yam.
+            </p>
+            <div class="price-cart">
+              <p>₦3,500</p>
+              <button>+</button>
+            </div>
+          </div>
+        </div>
+
+        <button class="view-all-btn">View All Categories</button>
+      </section>
+
+      <!-- Swallow Section -->
+      <section id="swallow-n-soups" class="explore-section">
+        <h2>Swallow and Soups</h2>
+
+        <div class="explore-div">
+          <img
+            class="explore-img"
+            src="images/Swallow.png"
+            alt="Swallow and Soup"
+            height="200"
+          />
+          <div class="details">
+            <h2 class="explore-caption">Spicy Tilapia Pepper Soup</h2>
+            <p class="description">
+              A comforting and spicy soup, with tender tilapia fish, a true
+              Nigerian delicacy.
+            </p>
+            <div class="price-cart">
+              <p>₦3,500</p>
+              <button>+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="explore-div">
+          <img
+            class="explore-img"
+            src="images/Swallow-1.png"
+            alt="Swallow and Soup"
+            height="200"
+          />
+          <div class="details">
+            <h2 class="explore-caption">Jollof Rice and Fried Chicken</h2>
+            <p class="description">
+              Our signature jollof, cooked to perfection, served with succulent
+              fried chicken.
+            </p>
+            <div class="price-cart">
+              <p>₦3,500</p>
+              <button>+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="explore-div">
+          <img
+            class="explore-img"
+            src="images/Swallow-3.png"
+            alt="Swallow and Soup"
+            height="200"
+          />
+          <div class="details">
+            <h2 class="explore-caption">Egusi Soup and Pounded Yam</h2>
+            <p class="description">
+              Rich and savoury egusi soup with assorted meats, paired with
+              freshly pounded yam.
+            </p>
+            <div class="price-cart">
+              <p>₦3,500</p>
+              <button>+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="explore-div hidden">
+          <img
+            class="explore-img"
+            src="images/Swallow.png"
+            alt="Swallow and Soup"
+            height="200"
+          />
+          <div class="details">
+            <h2 class="explore-caption">Assorted Meats</h2>
+            <p class="description">
+              Well seasoned and flavoured variety of meats.
+            </p>
+            <div class="price-cart">
+              <p>₦3,500</p>
+              <button>+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="explore-div hidden">
+          <img
+            class="explore-img"
+            src="images/Swallow-3.png"
+            alt="Swallow and Soup"
+            height="200"
+          />
+          <div class="details">
+            <h2 class="explore-caption">Jollof Rice and Fried Chicken</h2>
+            <p class="description">
+              Our signature jollof, cooked to perfection, served with succulent
+              fried chicken.
+            </p>
+            <div class="price-cart">
+              <p>₦3,500</p>
+              <button>+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="explore-div hidden">
+          <img
+            class="explore-img"
+            src="images/Swallow-1.png"
+            alt="Swallow and Soup"
+            height="200"
+          />
+          <div class="details">
+            <h2 class="explore-caption">Egusi Soup and Pounded Yam</h2>
+            <p class="description">
+              Rich and savoury egusi soup with assorted meats, paired with
+              freshly pounded yam.
+            </p>
+            <div class="price-cart">
+              <p>₦3,500</p>
+              <button>+</button>
+            </div>
+          </div>
+        </div>
+
+        <button class="view-all-btn">View All Categories</button>
+      </section>
+
+      <!-- Footer Section -->
+      <footer>
+        <div>
+          <img
+            id="footer-logo"
+            src="images/logo.svg"
+            alt="logo"
+            width="150"
+            height="auto"
+          />
+          <p>
+            Bringing the authentic flavors of Nigerian home cooking to your
+            table, with passion and care.
+          </p>
+        </div>
+
+        <div class="quick-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a class="footer-links" href="home.html">Home</a></li>
+            <li><a class="footer-links" href="explore.html">Explore</a></li>
+            <li><a class="footer-links" href="">My Order</a></li>
+            <li><a class="footer-links" href="account.html">Account</a></li>
+            <li><a class="footer-links" href="home.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="contact-links">
+          <h3>Contact Us</h3>
+          <address>
+            <p>
+              <a class="footer-links" href="tel:+2348012345678"
+                >+234 801 234 5678</a
+              >
+            </p>
+            <p>
+              <a class="footer-links" href="mailto:hello@chukskitchen.com"
+                >hello@chukskitchen.com</a
+              >
+            </p>
+            <p>123 Taste Blvd, Lagos, Nigeria</p>
+          </address>
+        </div>
+
+        <div class="social-links">
+          <ul>
+            <li>
+              <a
+                class="footer-links"
+                href="https://facebook.com/chukskitchen"
+                target="_blank"
+                rel="noopener"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer-links"
+                href="https://twitter.com/chukskitchen"
+                target="_blank"
+                rel="noopener"
+                >Twitter</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer-links"
+                href="https://linkedin.com/company/chukskitchen"
+                target="_blank"
+                rel="noopener"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer-links"
+                href="https://t.me/chukskitchen"
+                target="_blank"
+                rel="noopener"
+                >Telegram</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div id="copywrite">
+          <p>&copy; 2025 Lift Media. All rights reserved.</p>
+        </div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

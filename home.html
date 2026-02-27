@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Chuks Kitchen</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="A place for different varieties of food"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header/Navigation Section -->
+    <header>
+      <nav class="nav-container">
+        <div class="logo">
+          <img
+            src="images/logo.svg"
+            alt="Chuks Kitchen Logo"
+            width="100"
+            height="auto"
+          />
+        </div>
+        <div class="menu-toggle" id="menu-toggle">☰</div>
+        <ul id="navbar">
+          <li><a class="navbar-link" href="home.html">Home</a></li>
+          <li><a class="navbar-link" href="explore.html">Explore</a></li>
+          <li><a class="navbar-link" href="orders.html">My Orders</a></li>
+          <li><a class="navbar-link" href="account.html">Account</a></li>
+          <li class="btn">
+            <a class="navbar-link" href="login.html">Login</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Top/Hero Section -->
+      <section id="top-section">
+        <div class="hero">
+          <h1>The Heart of Nigerian Home Cooking</h1>
+          <p>Handcrafted with passion, delivered with care.</p>
+          <button>Discover what's new</button>
+        </div>
+        <form id="search-form">
+          <div class="search-div">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input
+              type="search"
+              placeholder="What are you craving for today?"
+            />
+          </div>
+        </form>
+      </section>
+
+      <!-- Popular Category Section -->
+      <section class="popular-section">
+        <h2>Popular Categories</h2>
+
+        <div>
+          <img
+            class="popular-img"
+            src="images/Jollof.png"
+            alt="Jollof rice"
+            width="100%"
+            height="auto"
+          />
+          <p class="popular-caption">Jollof Delights</p>
+        </div>
+
+        <div>
+          <img
+            class="popular-img"
+            src="images/Swallow.png"
+            alt="Swallow and soup"
+            width="100%"
+            height="auto"
+          />
+          <p class="popular-caption">Swallow & Soups</p>
+        </div>
+
+        <div>
+          <img
+            class="popular-img"
+            src="images/Grills.png"
+            alt="Grills and barbeque"
+            width="100%"
+            height="auto"
+          />
+          <p class="popular-caption">Grills &amp; BBQ</p>
+        </div>
+
+        <div class="hidden">
+          <img
+            class="popular-img"
+            src="images/Treats.png"
+            alt="Sweet treats"
+            width="100%"
+            height="auto"
+          />
+          <p class="popular-caption">Sweet Treats</p>
+        </div>
+
+        <div class="hidden">
+          <img
+            class="popular-img"
+            src="images/Fish-dish.png"
+            alt="Fish dish"
+            width="100%"
+            height="auto"
+          />
+          <p class="popular-caption">Jollof Delights</p>
+        </div>
+
+        <div class="hidden">
+          <img
+            class="popular-img"
+            src="images/Assorted-meats.png"
+            alt="Assorted meats"
+            width="100%"
+            height="auto"
+          />
+          <p class="popular-caption">Jollof Delights</p>
+        </div>
+
+        <button class="view-all-btn">View All Categories</button>
+      </section>
+
+      <!-- Chef's Specials Section -->
+      <section class="special-section">
+        <h2>Chef's Specials</h2>
+
+        <div class="special-div">
+          <img
+            class="popular-img"
+            src="images/Fish-dish.png"
+            alt="Tilapia pepper soup"
+            width="100%"
+            height="auto"
+          />
+          <h2 class="special-caption">Spicy Tilapia Pepper Soup</h2>
+          <p class="description">
+            A comforting and spicy soup, with tender tilapia fish, a true
+            Nigerian delicacy.
+          </p>
+          <div class="price-cart">
+            <p>₦3,500</p>
+            <button>Add to cart</button>
+          </div>
+        </div>
+
+        <div class="special-div">
+          <img
+            class="popular-img"
+            src="images/Plantain-jollof.png"
+            alt="Jollof rice and fried chicken"
+            width="100%"
+            height="auto"
+          />
+          <h2 class="special-caption">Jollof Rice & Smoked Chicken</h2>
+          <p class="description">
+            Our signature jollof, cooked to perfection, served with succulent
+            fried chicken.
+          </p>
+          <div class="price-cart">
+            <p>₦3,500</p>
+            <button>Add to cart</button>
+          </div>
+        </div>
+
+        <div class="special-div">
+          <img
+            class="popular-img"
+            src="images/Egusi-soup.png"
+            alt="Egusi soup and pounded yam"
+            width="100%"
+            height="auto"
+          />
+          <h2 class="special-caption">Egusi Soup and Pounded Yam</h2>
+          <p class="description">
+            Rich and savoury egusi soup with assorted meats, paired with freshly
+            pounded yam.
+          </p>
+          <div class="price-cart">
+            <p>₦3,500</p>
+            <button>Add to cart</button>
+          </div>
+        </div>
+
+        <div class="special-div hidden">
+          <img
+            class="popular-img"
+            src="images/Grills.png"
+            alt="Grills"
+            width="100%"
+            height="auto"
+          />
+          <h2 class="special-caption">Jollof Rice & Fried Chicken</h2>
+          <p class="description">
+            Our signature jollof, cooked to perfection, served with succulent
+            fried chicken.
+          </p>
+          <div class="price-cart">
+            <p>₦3,500</p>
+            <button>Add to cart</button>
+          </div>
+        </div>
+
+        <div class="special-div hidden">
+          <img
+            class="popular-img"
+            src="images/Fish-jollof.png"
+            alt="Fish jollof"
+            width="100%"
+            height="auto"
+          />
+          <h2 class="special-caption">Jollof Rice & Fried Chicken</h2>
+          <p class="description">
+            Our signature jollof, cooked to perfection, served with succulent
+            fried chicken.
+          </p>
+          <div class="price-cart">
+            <p>₦3,500</p>
+            <button>Add to cart</button>
+          </div>
+        </div>
+
+        <div class="special-div hidden">
+          <img
+            class="popular-img"
+            src="images/Egusi.png"
+            alt="Egusi soup"
+            width="100%"
+            height="auto"
+          />
+          <h2 class="special-caption">Egusi Soup & Pounded Yam</h2>
+          <p class="description">
+            Rich and savoury egusi soup with assorted meats, paired with freshly
+            pounded yam.
+          </p>
+          <div class="price-cart">
+            <p>₦3,500</p>
+            <button>Add to cart</button>
+          </div>
+        </div>
+
+        <button class="view-all-btn">View All Categories</button>
+      </section>
+
+      <!-- Additional Info Section -->
+      <section class="additional-info">
+        <h2>Introducing Our New Menu Additions!</h2>
+        <p>
+          Explore exciting new dishes, crafted with the freshest ingredients and
+          authentic Nigerian flavors. Limited time offer!
+        </p>
+        <button>Discover what's new</button>
+      </section>
+
+      <!-- Footer Section -->
+      <footer>
+        <div>
+          <img
+            id="footer-logo"
+            src="images/logo.svg"
+            alt="logo"
+            width="150"
+            height="auto"
+          />
+          <p id="short-desc">
+            Bringing the authentic flavors of Nigerian home cooking to your
+            table, with passion and care.
+          </p>
+        </div>
+
+        <div class="quick-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a class="footer-links" href="home.html">Home</a></li>
+            <li><a class="footer-links" href="explore.html">Explore</a></li>
+            <li><a class="footer-links" href="">My Order</a></li>
+            <li><a class="footer-links" href="account.html">Account</a></li>
+            <li><a class="footer-links" href="home.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="contact-links">
+          <h3>Contact Us</h3>
+          <address>
+            <p>
+              <a class="footer-links" href="tel:+2348012345678"
+                >+234 801 234 5678</a
+              >
+            </p>
+            <p>
+              <a class="footer-links" href="mailto:hello@chukskitchen.com"
+                >hello@chukskitchen.com</a
+              >
+            </p>
+            <p>123 Taste Blvd, Lagos, Nigeria</p>
+          </address>
+        </div>
+
+        <div class="social-links">
+          <ul>
+            <li>
+              <a
+                class="footer-links"
+                href="https://facebook.com/chukskitchen"
+                target="_blank"
+                rel="noopener"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer-links"
+                href="https://twitter.com/chukskitchen"
+                target="_blank"
+                rel="noopener"
+                >Twitter</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer-links"
+                href="https://linkedin.com/company/chukskitchen"
+                target="_blank"
+                rel="noopener"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer-links"
+                href="https://t.me/chukskitchen"
+                target="_blank"
+                rel="noopener"
+                >Telegram</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div id="copywrite">
+          <p>&copy; 2025 Lift Media. All rights reserved.</p>
+        </div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
